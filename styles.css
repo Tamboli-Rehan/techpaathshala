@@ -69,29 +69,39 @@ nav {
     color: #ff4900;
     background-color: #f8cbb1;
 }
-
+.parent{
+    height: 1000vh;
+    width: 1520px;
+}
 main {
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
     height: 515px;
-    width: 100vw;
+    width: 1500px;
     margin-top: 0px;
 }
 
 .left {
-    height: 300px;
-    width: 49rem;
-    margin-top: 41px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 327px;
+    width: 38rem;
+    margin-top: 55px;
+    margin-left: 177px;
 }
 
 .right {
+    margin-top: 0px;
     background-color: white;
+    height: 430px;
+    width: 638px;
 }
 
 .right img {
-    height: 334px;
+    height: 100%;
     width: 567px;
     background-color: white;
     mix-blend-mode: multiply;
@@ -103,16 +113,17 @@ span {
 }
 
 .bar {
-    height: 50px;
-    width: 600px;
+    height: 60px;
+    width: 510px;
     display: flex;
     align-items: center;
     background: whitesmoke;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 .bar h6 {
+    width: 143px;
     font-weight: 400;
     font-size: small;
     color: grey;
@@ -121,31 +132,34 @@ span {
 
 section {
     height: 100vh;
-    width: 100vw;
-    background-color: white;
+    margin-left: 25px;
+    width: 1475px;
+    background-color: #f5e08d;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 
 .float {
-    position: relative;
+    position: absolute;
     border-radius: 1rem;
-    top: -86px;
-    left: 15%;
-    width: 74%;
-    height: 159px;
+    top: 526px;
+    left: 13%;
+    width: 77%;
+    height: 120px;
     padding: 0px 24px;
     line-height: 3.5rem;
     box-shadow: var(--box-shadow);
     z-index: 1000;
-    background-color: #dfd8d8;
+    background-color: whitesmoke;
 }
 
 .float .upper-float {
     display: flex;
-    height: 50%;
-    margin-top: 10px;
+    height: 40px;
+    /* margin-top: 10px; */
     margin-left: 34px;
-    width: 100%;
+    width: fit-content;
 }
 
 .float .upper-float div {
@@ -174,7 +188,7 @@ section {
 }
 
 .float .lower-text div input {
-    height: 4rem;
+    height: 50px;
     width: 17vw;
     border-radius: 0.5rem;
     color: var(--span-color);
@@ -182,12 +196,13 @@ section {
     border: 0.5px solid #93aac2;
 }
 .float .lower-text .btn1 {
-    margin-right: .5rem;
-    font-size: 1.5rem;
+    margin-right: 6.5rem;
+    font-size: 20px;
     color: white;
     text-align: center;
-    width: 14rem;
-    border-radius: .5rem;
+    height: 58px;
+    width: 12rem;
+    border-radius: 0.5rem;
     padding: 0 2rem;
     background-color: rgb(51, 50, 50);
 }
