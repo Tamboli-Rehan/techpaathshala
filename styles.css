@@ -154,7 +154,6 @@ section {
     height: 120px;
     padding: 0px 24px;
     line-height: 3.5rem;
-    /* box-shadow: var(--box-shadow); */
     box-shadow: rgb(0 0 0) 6px 6px 14px;
     z-index: 1000;
     background-color: whitesmoke;
@@ -163,7 +162,6 @@ section {
 .float .upper-float {
     display: flex;
     height: 40px;
-    /* margin-top: 10px; */
     margin-left: 34px;
     width: fit-content;
 }
